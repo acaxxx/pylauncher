@@ -29,6 +29,7 @@ Python game launcher with gamepad support.
   - Enter to start game
   - Tab and Shift-Tab to move between game lists
   - ESC to quit
+  - ALT-Enter to switch to windowed or fullscreen
 
 - Gamepad:
   - D-pad to choose
