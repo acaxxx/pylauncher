@@ -1,0 +1,6 @@
+NES games
+
+Super C
+retroarch -L /home/ac/.config/retroarch/cores/fceumm_libretro.so "/media/ac/Nowy/ROMs/Super C (USA).nes"
+.
+boxart/superc.jpg

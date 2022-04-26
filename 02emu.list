@@ -1,0 +1,11 @@
+Emulated games
+
+Super C
+retroarch -L /home/ac/.config/retroarch/cores/fceumm_libretro.so "/media/ac/Nowy/ROMs/Super C (USA).nes"
+.
+boxart/superc.jpg
+
+Zelda: Ocarina of Time
+retroarch -L /home/ac/.config/retroarch/cores/mupen64plus_next_libretro.so "/media/ac/Nowy/ROMs/Legend of Zelda, The - Ocarina of Time (U) (V1.2) [!].z64"
+.
+boxart/zelda.jpg

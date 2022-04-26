@@ -1,0 +1,66 @@
+All games
+
+Bloodstained: Ritual of the Night
+wine "/media/ac/Nowy/Games/Bloodstained - Ritual of the Night/BloodstainedRotN.exe"
+/media/ac/Nowy/Games/Bloodstained - Ritual of the Night/
+boxart/bloodstained.jpeg
+
+Dragon Quest XI
+wine "/media/ac/Nowy/Games/DRAGON QUEST XI Echoes of an Elusive Age/Game/Binaries/Win64/DRAGON QUEST XI.exe"
+/media/ac/Nowy/Games/DRAGON QUEST XI Echoes of an Elusive Age/
+boxart/dq.jpg
+
+Nier Automata
+wine "/media/ac/Nowy/Games/NieR - Automata/NieRAutomata.exe"
+/media/ac/Nowy/Games/NieR - Automata/
+boxart/nier.jpg
+
+Steamworld Dig 2
+wine explorer /desktop=abalaba,1920x1080 "/media/ac/Nowy/Games/SteamWorld Dig 2/Dig2.exe"
+/media/ac/Nowy/Games/SteamWorld Dig 2/
+boxart/steamworld.jpg
+
+Grim Dawn
+wine explorer /desktop=abalaba,1920x1080 "/media/ac/Nowy/Games/Grim Dawn/Grim Dawn.exe"
+/media/ac/Nowy/Games/Grim Dawn/
+boxart/grim.jpeg
+
+GTA V
+wine "/media/ac/Nowy/Games/Grand Theft Auto V/GTAVLauncher.exe"
+/media/ac/Nowy/Games/Grand Theft Auto V/
+boxart/gta.jpg
+
+Baba is You
+wine "/media/ac/Nowy/Games/Baba is You/Baba Is You.exe"
+/media/ac/Nowy/Games/Baba is You/
+boxart/baba.jpg
+
+Dead Cells
+wine "/media/ac/Nowy/Games/Dead Cells/deadcells.exe"
+/media/ac/Nowy/Games/Dead Cells/
+boxart/dc.jpg
+
+Shantae and the Seven Sirens
+wine "/media/ac/Nowy/Games/Shantae and the Seven Sirens/Final-NOSTEAM/ShantaeSiren.exe"
+/media/ac/Nowy/Games/Shantae and the Seven Sirens/
+boxart/shantae.jpg
+
+Hydra Castle Labyrinth
+/home/ac/HCL/hcl -d
+/home/ac/HCL/
+boxart/hydra.jpg
+
+Commander Keen
+/home/ac/Keen/CGeniusExe
+/home/ac/Keen/
+boxart/keen.jpg
+
+RetroArch
+retroarch
+/home/ac/
+boxart/ra.png
+
+Kodi
+kodi
+/home/ac
+boxart/kodi.png
