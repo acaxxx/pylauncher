@@ -147,7 +147,13 @@ if pygame.joystick.get_count() > 0:
 
 pressed = 0
 
-num_rows = 7
+num_columns = 7
+
+def update_num_columns():
+    global num_columns
+    num_columns = res[0] // imagesize[0]
+
+update_num_columns()
 
 def run_app():
     display_surface.fill((0,0,0))
@@ -199,14 +205,14 @@ def move_right():
 
 
 def move_up():
-    global current_choice, num_rows
-    current_choice -= num_rows
+    global current_choice, num_columns
+    current_choice -= num_columns
     if (current_choice < 0):
         current_choice = 0
 
 def move_down():
-    global current_choice, num_rows
-    current_choice += num_rows
+    global current_choice, num_columns
+    current_choice += num_columns
     if (current_choice > (len(gamelist) - 1)):
         current_choice = len(gamelist) - 1
 
@@ -214,10 +220,11 @@ while True:
     display_surface.fill((0,0,0))
     display_surface.blit(bg, (0,0))
 
-    if (len(gamelist) > num_rows *2):
-        scroll = (current_choice // num_rows) * (imagesize[1]+20)
+    if (len(gamelist) > num_columns *2):
+        scroll = (current_choice // num_columns) * (imagesize[1]+20)
     else:
         scroll = 0
+
 
     for x in range(len(gamelist)): 
         if x != current_choice:
@@ -225,8 +232,8 @@ while True:
         else:
             imagetextures[x].set_alpha(255)
         
-        pos = ((imagesize[0]+20)*(x%num_rows) + 20,170 - scroll)
-        pos = (pos[0], pos[1]+ (x//num_rows) * (imagesize[1]+20))
+        pos = ((imagesize[0]+20)*(x%num_columns) + 20,170 - scroll)
+        pos = (pos[0], pos[1]+ (x//num_columns) * (imagesize[1]+20))
 
         
         if (tc % 7 < 3 or current_choice != x):
@@ -331,11 +338,13 @@ while True:
                     fullscreen = 0
                     res = (1400,900)
                     display_surface = pygame.display.set_mode(res)
+                    update_num_columns()
+
                     pass
                 else:
                     res = (1920,1080)
                     display_surface = pygame.display.set_mode(res,pygame.FULLSCREEN)
-
+                    update_num_columns()
                     fullscreen = 1
                     pass
 
